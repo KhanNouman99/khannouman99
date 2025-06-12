@@ -1,0 +1,52 @@
+ [
+    {
+        "intent": "greeting",
+        "examples": ["hello", "hi", "good morning", "good afternoon", "good evening", "hey there", "how are you"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Hello! What brings you here today?"]
+    },
+    {
+        "intent": "admission_query",
+        "examples": ["how to apply for admission", "what are the admission requirements", "admission deadline", "admission form", "apply for admission"],
+        "responses": ["To apply for admission, please fill out the online application form on our website.", "Admission forms are available online. Let me know if you need help with the process."]
+    },
+    {
+        "intent": "courses_offered",
+        "examples": ["which courses are available", "courses offered", "what programs do you have", "list of courses", "available programs"],
+        "responses": ["We offer a variety of programs in different fields. You can check the complete list on our website.", "We have courses in Science, Arts, Business, and more."]
+    },
+    {
+        "intent": "fee_structure",
+        "examples": ["what is the fee structure", "fees for courses", "tuition fees", "cost of courses"],
+        "responses": ["Our fee structure varies by program. Please visit our fees section for details.", "You can check the detailed fee structure on our website."]
+    },
+    {
+        "intent": "timings",
+        "examples": ["what are the office timings", "when is the center open", "working hours", "center timings"],
+        "responses": ["Our office is open from 9 AM to 5 PM, Monday to Friday.", "We are open from 9 AM to 5 PM, Monday through Friday."]
+    },
+    {
+        "intent": "location",
+        "examples": ["where is the center located", "center address", "location of your center", "how to reach you"],
+        "responses": ["We are located at Main Road, City Center. You can find us easily on Google Maps.", "Our center is at Main Road, near City Center."]
+    },
+    {
+        "intent": "contact_info",
+        "examples": ["how can I contact you", "contact number", "phone number", "email address"],
+        "responses": ["You can call us at +123456789 or email at info@center.com.", "Our phone number is +123456789 and our email is info@center.com."]
+    },
+    {
+        "intent": "thank_you",
+        "examples": ["thanks", "thank you", "appreciate it", "that's helpful"],
+        "responses": ["You're welcome!", "Glad to help!", "No problem, happy to assist!"]
+    },
+    {
+        "intent": "goodbye",
+        "examples": ["bye", "goodbye", "see you", "see you later", "talk to you later"],
+        "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!"]
+    },
+    {
+        "intent": "services",
+        "examples": ["what services do you offer", "services available", "what can you help me with"],
+        "responses": ["We provide assistance with admissions, course selection, and general inquiries.", "Our services include admission guidance, course details, and more."]
+    }
+]

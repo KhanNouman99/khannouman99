@@ -1,0 +1,275 @@
+[
+  {
+    "intent": "greeting",
+    "examples": [
+      "hello",
+      "hi",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "hey there",
+      "how are you"
+    ],
+    "responses": [
+      "Hello! How can I assist you today?",
+      "Hi there! What can I help you with?",
+      "Hello! What brings you here today?"
+    ]
+  },
+  {
+    "intent": "admission_query",
+    "examples": [
+      "how to apply for admission",
+      "what are the admission requirements",
+      "admission deadline",
+      "admission form",
+      "apply for admission"
+    ],
+    "responses": [
+      "To apply for admission, please fill out the online application form on our website.",
+      "Admission forms are available online. Let me know if you need help with the process."
+    ]
+  },
+  {
+    "intent": "courses_offered",
+    "examples": [
+      "which courses are available",
+      "courses offered",
+      "what programs do you have",
+      "list of courses",
+      "available programs"
+    ],
+    "responses": [
+      "We offer a variety of programs in different fields. You can check the complete list on our website.",
+      "We have courses in Science, Arts, Business, and more."
+    ]
+  },
+  {
+    "intent": "fee_structure",
+    "examples": [
+      "what is the fee structure",
+      "fees for courses",
+      "tuition fees",
+      "cost of courses"
+    ],
+    "responses": [
+      "Our fee structure varies by program. Please visit our fees section for details.",
+      "You can check the detailed fee structure on our website."
+    ]
+  },
+  {
+    "intent": "timings",
+    "examples": [
+      "what are the office timings",
+      "when is the center open",
+      "working hours",
+      "center timings"
+    ],
+    "responses": [
+      "Our office is open from 9 AM to 5 PM, Monday to Friday.",
+      "We are open from 9 AM to 5 PM, Monday through Friday."
+    ]
+  },
+  {
+    "intent": "location",
+    "examples": [
+      "where is the center located",
+      "center address",
+      "location of your center",
+      "how to reach you"
+    ],
+    "responses": [
+      "We are located at Main Road, City Center. You can find us easily on Google Maps.",
+      "Our center is at Main Road, near City Center."
+    ]
+  },
+  {
+    "intent": "contact_info",
+    "examples": [
+      "how can I contact you",
+      "contact number",
+      "phone number",
+      "email address"
+    ],
+    "responses": [
+      "You can call us at +123456789 or email at info@center.com.",
+      "Our phone number is +123456789 and our email is info@center.com."
+    ]
+  },
+  {
+    "intent": "thank_you",
+    "examples": [
+      "thanks",
+      "thank you",
+      "appreciate it",
+      "that's helpful"
+    ],
+    "responses": [
+      "You're welcome!",
+      "Glad to help!",
+      "No problem, happy to assist!"
+    ]
+  },
+  {
+    "intent": "goodbye",
+    "examples": [
+      "bye",
+      "goodbye",
+      "see you",
+      "see you later",
+      "talk to you later"
+    ],
+    "responses": [
+      "Goodbye! Have a great day!",
+      "See you later!",
+      "Take care!"
+    ]
+  },
+  {
+    "intent": "services",
+    "examples": [
+      "what services do you offer",
+      "services available",
+      "what can you help me with"
+    ],
+    "responses": [
+      "We provide assistance with admissions, course selection, and general inquiries.",
+      "Our services include admission guidance, course details, and more."
+    ]
+  },
+  {
+    "intent": "course_qa_1",
+    "examples": [
+      "What is the AJK IT Excellence Center Rawalakot?"
+    ],
+    "responses": [
+      "It is a project by the AJK government and AJK IT Board aimed at promoting digital educational excellence, capacity building of IT professionals, and fostering an ICT ecosystem in Azad Jammu and Kashmir."
+    ]
+  },
+  {
+    "intent": "course_qa_2",
+    "examples": [
+      "Where is the AJK IT Excellence Center Rawalakot located?"
+    ],
+    "responses": [
+      "The center is located on the 3rd Floor of Model College, Rawalakot, 12350, Kharik Bypass Road, Chandak-185101, Poonch, AJK."
+    ]
+  },
+  {
+    "intent": "course_qa_3",
+    "examples": [
+      "What courses are offered at the AJK IT Excellence Center Rawalakot?"
+    ],
+    "responses": [
+      "Courses include Web Design & Development, UI/UX Design, Digital Marketing, E-commerce, Cyber Security, and Mobile App Design & Development. All courses are free."
+    ]
+  },
+  {
+    "intent": "course_qa_4",
+    "examples": [
+      "What are the operational hours of the center?"
+    ],
+    "responses": [
+      "Monday to Friday: 8:30 AM - 6:00 PM; Sunday: 5:30 AM - 12:00 AM; Closed on Saturdays."
+    ]
+  },
+  {
+    "intent": "course_qa_5",
+    "examples": [
+      "What is the contact information for AJK IT Excellence Center or AIOU Rawalakot?"
+    ],
+    "responses": [
+      "Phone: 05824-960241, Email: rd_rawalakot@aiou.edu.pk, Address: Regional Centre, House no D-156, Near Allied School Housing Scheme, Mong Road, Tehsil Rawalakot, Poonch AJK."
+    ]
+  },
+  {
+    "intent": "course_qa_6",
+    "examples": [
+      "What is the objective of the Flutter & Dart course?"
+    ],
+    "responses": [
+      "To equip students with skills to develop cross-platform mobile apps using Flutter and Dart, including UI design, API integration, and app deployment."
+    ]
+  },
+  {
+    "intent": "course_qa_7",
+    "examples": [
+      "What are the topics covered in Week 1 of the Flutter course?"
+    ],
+    "responses": [
+      "Introduction to Flutter, setting up the development environment, exploring project structure, and running basic apps."
+    ]
+  },
+  {
+    "intent": "course_qa_8",
+    "examples": [
+      "What is the main goal of the Data Science and AI course?"
+    ],
+    "responses": [
+      "To prepare students to collect, clean, analyze data, build ML models, and deploy them, using tools like Python, PowerBI, and Hadoop."
+    ]
+  },
+  {
+    "intent": "course_qa_9",
+    "examples": [
+      "What is covered in Week 3 of the Data Science course?"
+    ],
+    "responses": [
+      "Installing and practicing with Python packages like NumPy, Pandas, and Matplotlib. Learning core Python syntax and solving problems."
+    ]
+  },
+  {
+    "intent": "course_qa_10",
+    "examples": [
+      "What is the focus of the Cyber Security course?"
+    ],
+    "responses": [
+      "To train students in ethical hacking, vulnerability assessment, penetration testing, and SOC analysis using tools like Metasploit and Wireshark."
+    ]
+  },
+  {
+    "intent": "course_qa_11",
+    "examples": [
+      "What topics are included in Week 5 of the Cyber Security course?"
+    ],
+    "responses": [
+      "Understanding malware types like Trojans, viruses, worms; detecting them; and performing static and dynamic malware analysis."
+    ]
+  },
+  {
+    "intent": "course_qa_12",
+    "examples": [
+      "What is the goal of the Digital Marketing course?"
+    ],
+    "responses": [
+      "To teach fundamentals and strategies of digital marketing including SEO, SMM, PPC, content marketing, and freelancing."
+    ]
+  },
+  {
+    "intent": "course_qa_13",
+    "examples": [
+      "What tools are used in the Digital Marketing course?"
+    ],
+    "responses": [
+      "Ahrefs, SEMrush, Canva, Grammarly, WordPress, Google Ads, Google Analytics, and more."
+    ]
+  },
+  {
+    "intent": "course_qa_14",
+    "examples": [
+      "What is taught in the E-Commerce course?"
+    ],
+    "responses": [
+      "The course teaches Amazon business models, product hunting, listing, optimization, sourcing, and freelancing with tools like Helium 10 and Jungle Scout."
+    ]
+  },
+  {
+    "intent": "course_qa_15",
+    "examples": [
+      "What are some Amazon business models discussed in the course?"
+    ],
+    "responses": [
+      "FBM, FBA, Private Label, Wholesale, Dropshipping, and Online Arbitrage."
+    ]
+  }
+]
