@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AIgilityX CISO Advisor – BETA</title>
+  <style>
+    :root{
+      --primary:#014737;
+      --bg:#f3f3f3;
+      --text:#333;
+    }
+    body{margin:0;font-family:'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--text)}
+    header{background-color:var(--primary);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    header .title-group{display:flex;align-items:center}
+    header img{height:48px;margin-right:12px;border-radius:4px}
+    header h1{font-size:1.4rem;margin:0}
+    .beta-tag{background:#f2c037;color:#222;padding:4px 10px;border-radius:5px;font-size:.75rem;font-weight:bold}
+    .hero{text-align:center;padding:2rem 1rem;background:#e6e6e6}
+    .hero h2{font-size:1.8rem;margin-bottom:.5rem;color:var(--primary)}
+    .hero p{font-size:1rem;color:#444}
+    .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem;padding:2rem;max-width:1200px;margin:auto}
+    .feature-card{background:#fff;border-radius:10px;padding:1.5rem;box-shadow:0 2px 6px rgba(0,0,0,.08);transition:transform .2s}
+    .feature-card:hover{transform:translateY(-5px)}
+    .feature-card h3{margin-top:0;color:var(--primary)}
+    footer{text-align:center;padding:1rem;background:#ddd;font-size:.9rem}
+    /* NEW SECTIONS */
+    section{padding:2rem}
+    details{background:#f9f9f9;margin-bottom:.75rem;padding:1rem;border-radius:6px;cursor:pointer}
+    summary{font-weight:600}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="title-group">
+      <img src="logo.png" alt="AIgilityX Logo" />
+      <h1>AIgilityX CISOs Advisor</h1>
+    </div>
+    <div class="beta-tag">BETA</div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Your AI-Powered Cybersecurity Co-Pilot</h2>
+    <p>Strategic, intelligent, and real-time support for CISOs and cybersecurity leadership.</p>
+  </section>
+
+  <!-- 5 Core Pillars -->
+  <section class="features">
+    <div class="feature-card">
+      <h3>Cyber Strategy & Leadership</h3>
+      <p>Align security initiatives with business goals, enable Zero Trust, and advise executive leadership.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Threat Intelligence & Defense</h3>
+      <p>Leverage AI to detect anomalies via SIEM, EDR, and behavioral tools.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Governance, Risk & Compliance</h3>
+      <p>Ensure adherence to NIST, ISO 27001, GDPR, CCPA, etc.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Security Operations (SecOps)</h3>
+      <p>Automate SOC processes like incident triage and response.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Stakeholder Engagement</h3>
+      <p>Generate board-ready briefings and launch awareness campaigns.</p>
+    </div>
+  </section>
+
+  <!-- Live Chat -->
+  <section style="text-align:center;background:#fff">
+    <h2 style="color:#014737;margin-bottom:.5rem;">🚀 Live CISO Co-Pilot</h2>
+    <p>Ask anything—from Zero-Trust road-maps to dark-web intel—in plain English or Urdu.</p>
+    <button onclick="openCisoChat()" style="background:#014737;color:#fff;border:none;padding:.75rem 1.5rem;border-radius:6px;font-size:1rem;cursor:pointer">Launch AI Co-Pilot</button>
+    <script>
+      function openCisoChat(){
+        window.open('https://your-botpress-url.com/webchat','_blank','width=400,height=600');
+      }
+    </script>
+  </section>
+
+  <!-- Download Templates -->
+  <section style="text-align:center;background:#f9f9f9">
+    <h2 style="color:#014737;margin-bottom:1rem">📂 Ready-to-Deploy Templates</h2>
+    <div style="display:flex;flex-wrap:wrap;gap:1rem;justify-content:center">
+      <a href="files/zero-trust-roadmap.docx" class="feature-card" style="text-decoration:none;background:#f2c037;color:#222;padding:.75rem 1rem;border-radius:6px;font-weight:600">Zero-Trust Roadmap</a>
+      <a href="files/incident-response-playbook.docx" class="feature-card" style="text-decoration:none;background:#f2c037;color:#222;padding:.75rem 1rem;border-radius:6px;font-weight:600">IR Playbook</a>
+      <a href="files/iso27001-mapping.xlsx" class="feature-card" style="text-decoration:none;background:#f2c037;color:#222;padding:.75rem 1rem;border-radius:6px;font-weight:600">ISO 27001 Mapping</a>
+    </div>
+  </section>
+
+  <!-- FAQ – CISO Edition -->
+  <section>
+    <h2 style="color:#014737;text-align:center;margin-bottom:1.5rem">❓ Frequently Asked – CISO Edition</h2>
+    <details><summary>How quickly can I integrate this into my current SOC stack?</summary><p>Zero code changes—connect via REST or embed the webchat. Most teams are live within 30 minutes.</p></details>
+    <details><summary>Which frameworks are pre-loaded?</summary><p>NIST CSF 2.0, ISO 27001:2022, CIS 18, MITRE ATT&CK, SOC 2 Type II, PCI-DSS, HIPAA & GDPR controls.</p></details>
+    <details><summary>Does it store or leak our corporate data?</summary><p>No data persistence—sessions are ephemeral. Optional on-prem deployment keeps everything inside your VPC.</p></details>
+    <details><summary>Can it generate board-ready risk reports?</summary><p>Yes—single-click export to PowerPoint or PDF with ROI, threat heat-maps and executive summary slides.</p></details>
+    <details><summary>How often are frameworks updated?</summary><p>Control libraries refresh automatically every 30 days and whenever NIST or ISO releases new guidance.</p></details>
+  </section>
+
+  <!-- Subscription -->
+  <section style="background:#e6e6e6;text-align:center">
+    <h2 style="color:#014737;margin-bottom:1rem">🔔 Stay Ahead</h2>
+    <form action="https://formspree.io/f/YOUR_ID" method="POST" style="max-width:500px;margin:auto;display:flex;flex-direction:column;gap:.75rem">
+      <input type="email" name="email" placeholder="Email address" required style="padding:.75rem;border:1px solid #ccc;border-radius:4px">
+      <input type="tel" name="phone" placeholder="WhatsApp / phone (optional)" style="padding:.75rem;border:1px solid #ccc;border-radius:4px">
+      <button type="submit" style="background:#014737;color:#fff;border:none;padding:.75rem;border-radius:4px;cursor:pointer">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 AIgilityX CISO Advisor – BETA. <br><small>Designed by Khurrum Ghori | info@aigilityx.com | +1-732-889-0953</small>
+  </footer>
+
+</body>
+</html>
